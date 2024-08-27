@@ -7,10 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className = "App-Header">
-          <h1 className="text-center mt-5">Testing Bootstrap in React</h1>
-          <button className="btn btn-primary">Bootstrap Button</button>
-        </header>
+
         <main>
           <Dictionary />
         </main>

@@ -1,13 +1,11 @@
 .Meaning h3 {
-    font-size: 22px;
-    line-height: 1.6;
-    font-weight: 600;
-    color: #4b0082;
-    font-family: 'Georgia', serif;
-}
-
-.Meaning .example {
-    color: #8e44ad;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  
+  .Meaning .example {
+    color: #70757a;
     font-style: italic;
-    margin-top: 12px;
-}
+    margin-top: 10px;
+  }

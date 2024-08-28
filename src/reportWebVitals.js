@@ -1,13 +1,14 @@
-const reportWebVitals = onPerfEntry => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
-    });
-  }
-};
+import React from "react";
+import "./Phonetic.css";
 
-export default reportWebVitals;
+export default function Phonetic(props) {
+  console.log(props.phonetic);
+  return (
+    <div className="Phonetic">
+      <a href={props.phonetic.audio} target="_blank">
+        Listen
+      </a>
+      <span className="text">{props.phonetic.text}</span>
+    </div>
+  );
+}

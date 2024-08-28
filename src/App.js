@@ -1,22 +1,18 @@
 
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Dictionary from './Dictionary.js';
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-
         <main>
           <Dictionary />
         </main>
-        <footer>
-
+        <footer className="App-footer">
+          <small>Coded by Anna Bannenberg-Kleinloog</small>
         </footer>
+      </div>
     </div>
-  </div>
-);
+  );
 }
-
-export default App;

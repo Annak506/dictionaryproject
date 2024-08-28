@@ -1,23 +1,39 @@
 body {
-  background: #f9f8fe;
+  background: #f5f3f9; 
+  font-family: 'Lora', serif; 
+  color: #4b0082; 
+  line-height: 1.6;
 }
 
 a {
   color: #9670f4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #7a51d1; 
 }
 
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .App-header {
-  margin: 30px 0;
+  margin: 40px 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #4b0082;
 }
-
-
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 40px 0;
+  font-size: 14px;
+  color: #8e44ad;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
 }
